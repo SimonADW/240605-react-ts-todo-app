@@ -12,8 +12,8 @@
 	height: 2rem;
 }
 
-.container input[type="textarea"] {
-	height: 8rem;
+textarea {
+	width: 100%;
 }
 
 

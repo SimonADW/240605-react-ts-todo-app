@@ -1,6 +1,12 @@
 .addTodoSection {
 	height: 90vh;
 	border-right: 1px solid lightgray;
-	padding-right: 2rem;
-	flex-basis: 40%;
+	padding: 3rem;
+	flex-basis: 40%;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.addTodoSection form {
+	margin: 0 auto;
 }

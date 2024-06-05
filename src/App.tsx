@@ -4,12 +4,7 @@ import AddTodoSection from './components/AddTodoSection/AddTodoSection'
 import DisplayTodoSection from './components/DisplayTodoSection/DisplayTodoSection'
 
 function App() {
-  const [todosList, setTodosList] = useState([    
-    {title: "",
-     date: "",
-     description: "",
-    }
-  ]);
+  const [todosList, setTodosList] = useState([]);
 
   return (
     <>

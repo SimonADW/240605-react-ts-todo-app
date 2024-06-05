@@ -13,7 +13,21 @@ const AddTodoInput = ({ id, type }: InputPropsType) => {
 		<>
 			<div className={styles.container}>
 				<label htmlFor={id}>{capitalizedId}:</label>
-				<input type={type} name={id} id={id} className={id} />
+				{type === "textarea" ? (
+					<textarea
+						name={id}
+						id={id}
+						className={id}
+						rows={5}
+					/>
+				) : (
+					<input
+						type={type}
+						name={id}
+						id={id}
+						className={id}
+					/>
+				)}
 			</div>
 		</>
 	);
