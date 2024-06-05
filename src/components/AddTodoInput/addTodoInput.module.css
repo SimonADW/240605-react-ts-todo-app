@@ -1,0 +1,19 @@
+
+.container {
+	width: 100%;	
+	display: flex;
+	flex-direction: column;
+	align-items: start;	
+	margin-bottom: 1rem;
+}
+
+.container input {
+	width: 100%;
+	height: 2rem;
+}
+
+.container input[type="textarea"] {
+	height: 8rem;
+}
+
+

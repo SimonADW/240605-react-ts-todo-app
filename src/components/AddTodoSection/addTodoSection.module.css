@@ -1,0 +1,6 @@
+.addTodoSection {
+	height: 90vh;
+	border-right: 1px solid lightgray;
+	padding-right: 2rem;
+	flex-basis: 40%;
+}
