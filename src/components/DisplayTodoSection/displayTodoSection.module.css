@@ -7,18 +7,18 @@
 }
 
 .todoItem {
-	display: flex;	
+	display: flex;
 	gap: 1rem;
 }
 
 .heading {
-	font-weight: bold;	
+	font-weight: bold;
 }
 
 .heading span {
 	flex-basis: 22%;
 	border-left: 1px solid lightgray;
-	padding-left: 1rem;	
+	padding-left: 1rem;
 }
 
 .heading span:nth-of-type(1) {
@@ -26,7 +26,7 @@
 	border-left: none;
 }
 
-.todoItem span {	
+.todoItem span {
 	flex-basis: 22%;
 	display: flex;
 	align-items: center;
@@ -35,5 +35,30 @@
 }
 
 .itemNum {
-	flex-basis: 3%;	
+	flex-basis: 3%;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: grey;
+}
+
+@media screen and (max-width: 450px) {
+	.todosList {
+		padding: 0;
+	}
+	.todoItem span,
+	.heading span {
+		padding-left: 0;
+		border-left: none;
+	}
+
+	.todoItem button {
+		width: 1rem;
+		display: flex;
+		justify-content: center;
+	}
+
+
+
 }

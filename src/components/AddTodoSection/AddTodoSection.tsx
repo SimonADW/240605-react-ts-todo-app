@@ -6,6 +6,8 @@ type Todo = {
 	title: string;
 	date: string;
 	description: string;
+	isCompleted: boolean;
+	id: number;
 }
 type AddTodoProps = {	
 	todos: Todo[],

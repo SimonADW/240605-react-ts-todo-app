@@ -10,3 +10,12 @@
 .addTodoSection form {
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 450px) {
+	.addTodoSection {
+		padding: 0 0 1rem 0;
+		border-right: none;		
+		border-bottom: 1px solid lightgray;		
+	}
+
+}

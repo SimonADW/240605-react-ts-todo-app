@@ -6,6 +6,8 @@ type DisplayTodoPropType = {
 		title: string;
 		dueDate: string;
 		description: string;
+		isCompleted: boolean;
+		id: number
 	}[];
 };
 
